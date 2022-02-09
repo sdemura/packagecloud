@@ -52,7 +52,7 @@ func execPushCmd(cmd *cobra.Command, args []string) error {
 	for i := 0; i < maxRetries; i++ {
 		err = doPushPackage(ctx, client, target, pkg, overwrite)
 		if err == nil {
-			fmt.Printf("PUSHED: %s:%s\n", target.String(), filepath.Base(pkg))
+			fmt.Printf("OK: %s:%s\n", target.String(), filepath.Base(pkg))
 			return nil
 		}
 

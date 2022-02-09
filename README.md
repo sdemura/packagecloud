@@ -21,7 +21,7 @@ The `PACKAGECLOUD_TOKEN` envar must be set.
 To upload a package:
 
 ```shell
-$ packagecloud push --overwrite user/repo/distro/version ./mypkg_1.2.3_amd64.deb
+$ packagecloud push --overwrite user/repo/distro/version ./mypkg_1.2.3_arm64.deb
 ```
 
 > When the `--overwrite` flag is present, the CLI will yank (delete) the package file
