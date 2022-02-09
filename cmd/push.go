@@ -12,7 +12,7 @@ import (
 )
 
 var pushCmd = &cobra.Command{
-	Use:   "push user/repo[/distro/version] /path/to/packages",
+	Use:   "push user/repo[/distro/version] /path/to/package_file",
 	Short: "Push a package",
 	Long: `Push a package. When --overwrite is set, the existing package will be yanked
 and replaced.`,
