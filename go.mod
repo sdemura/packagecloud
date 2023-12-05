@@ -1,4 +1,4 @@
-module github.com/edgeworx/packagecloud
+module github.com/sdemura/packagecloud
 
 go 1.17
 

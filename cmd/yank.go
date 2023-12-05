@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/edgeworx/packagecloud/pkgcloud"
+	"github.com/sdemura/packagecloud/pkgcloud"
 	"github.com/spf13/cobra"
 )
 

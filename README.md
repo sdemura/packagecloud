@@ -11,7 +11,7 @@ be actively maintained, although pull requests will be reviewed.
 ## Installation
 
 ```shell
-$ go install github.com/edgeworx/packagecloud
+$ go install github.com/sdemura/packagecloud
 ```
 
 ## Usage

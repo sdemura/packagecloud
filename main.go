@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/edgeworx/packagecloud/cmd"
+	"github.com/sdemura/packagecloud/cmd"
 )
 
 func main() {
